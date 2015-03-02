@@ -1,0 +1,95 @@
+#featured_1 {
+    background-image: url(images/first.jpg);
+}
+#featured_2 {
+    background-image: url(images/second.jpg);
+}
+#featured_3 {
+    background-image: url(images/third.jpg);
+}
+#featured_4 {
+    background-image: url(images/fourth.jpg);
+}
+#featured_5 {
+    background-image: url(images/fifth.jpg);
+}
+
+.background-img {
+    /* make sure the background image's div is the same height as viewport */
+    height: 100vh;
+
+    /* make sure the image is stretched out to cover the whole viewport */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /* make sure when the viewport resizes to a smaller size, the image is still centered, as opposed to anchored on the upper left corner */
+    background-position: center center;
+
+   /*The background-attachment property sets whether a background image is fixed or scrolls with the rest of the page.*/
+    background-attachment: fixed;
+}
+
+.intro {
+    height: 50vh;
+    background-color: #353535;
+}
+
+h1{
+    color: #A9A9A9;
+    margin-top: 10%;
+}
+
+
+footer{
+    background-color: #F5F5F5;
+    /* overwrite default margin, so there won't be two white bars above and below footer */
+    margin: 0;
+    /* more breathing room for the footer */
+    padding: 10% 0;
+}
+
+footer h6{
+    font-family: "helvetica neue";
+    /* thinner font weight to match the delicate visual style and subtle background color */
+    font-weight: 300;
+    color: #4c4c4c;
+}
+
+/* navbar default controls background color of navbar, and positioning of navbar */
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin: 2em 10em;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: 200;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 0.7em;
+    color: white;
+    padding: 0 3px;
+    margin: 15px 3px;
+    border: solid 1px white;
+}
+
+/* for device that's narrower than 767.9 px, amend previous css with the additional code below */
+@media (max-width: 767.999999px) { 
+    .navbar-default {
+        /* use !important when your code overwrite previous code */
+        margin: 2em !important;
+    }
+
+    h1{
+        font-size: 1.6em;
+        margin-top: 60%;
+    }
+}
+
+#featured{
+    background-color: white;
+}
