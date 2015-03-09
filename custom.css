@@ -1,22 +1,22 @@
 #featured_1 {
-    background-image: url(images/first.jpg);
+    background-image: url(images/04.jpg);
 }
 #featured_2 {
-    background-image: url(images/second.jpg);
+    background-image: url(images/03.jpg);
 }
 #featured_3 {
-    background-image: url(images/third.jpg);
+    background-image: url(images/02.jpg);
 }
 #featured_4 {
-    background-image: url(images/fourth.jpg);
+    background-image: url(images/06.jpg);
 }
 #featured_5 {
-    background-image: url(images/fifth.jpg);
+    background-image: url(images/07.jpg);
 }
 
 .background-img {
     /* make sure the background image's div is the same height as viewport */
-    height: 100vh;
+    height: 140vh;
 
     /* make sure the image is stretched out to cover the whole viewport */
     -webkit-background-size: cover;
@@ -32,13 +32,13 @@
 }
 
 .intro {
-    height: 50vh;
+    height: 100vh;
     background-color: #353535;
 }
 
 h1{
     color: #A9A9A9;
-    margin-top: 10%;
+    margin-top: 20%;
 }
 
 
@@ -47,7 +47,7 @@ footer{
     /* overwrite default margin, so there won't be two white bars above and below footer */
     margin: 0;
     /* more breathing room for the footer */
-    padding: 10% 0;
+
 }
 
 footer h6{
@@ -92,4 +92,39 @@ footer h6{
 
 #featured{
     background-color: white;
+}
+
+a img{
+
+    border: 3px solid white;
+    border-radius: 5px;
+    height: 5em;
+    opacity: 0.7;
+}
+
+#page-contact {
+background-color: #00d900;
+}   
+
+#page-contact>.container-fluid{
+    margin-top: 10%;
+    margin-left: 12%;
+    }
+
+    #page-contact address{
+    font-size: 1.2em;
+    font-weight: 100;
+    color: white;
+}
+
+#page-contact a{
+    color: white;
+    text-decoration: underline;
+
+}
+
+#page-contact #address{
+    margin-top: 100px;
+   margin-top: 10%;
+    margin-left: 10%;
 }
