@@ -115,16 +115,42 @@ background-color: #00d900;
     font-size: 1.2em;
     font-weight: 100;
     color: white;
+    padding-left: 200;
+    padding-top: 100;
 }
+
+
+    
 
 #page-contact a{
     color: white;
     text-decoration: underline;
 
 }
-
-#page-contact #address{
-    margin-top: 100px;
-   margin-top: 10%;
-    margin-left: 10%;
+/*#portfolio{
+    background-color: black;
+}*/
+#portfolio nav{
+    background-color: black;
+    margin: 0;
 }
+
+#portfolio a img{
+    opacity: 10;
+}
+
+#portfolio #doublegallery>div>div{
+    padding: 5em;
+    margin: 2em;
+}
+
+#portfolio .old{
+    background-color:pink;
+}
+
+#portfolio .new{
+    background-color: yellow;
+}
+
+
+
