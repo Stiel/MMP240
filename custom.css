@@ -115,9 +115,10 @@ background-color: #00d900;
     font-size: 1.2em;
     font-weight: 100;
     color: white;
-    padding-left: 200;
-    padding-top: 100;
-}
+   margin-top: 200px;
+    margin-top: 10%;
+    margin-left: 10%;
+    }
 
 
     
@@ -127,6 +128,9 @@ background-color: #00d900;
     text-decoration: underline;
 
 }
+
+
+
 /*#portfolio{
     background-color: black;
 }*/
