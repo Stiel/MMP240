@@ -150,11 +150,62 @@ background-color: #00d900;
 
 #portfolio .old{
     background-color:pink;
+    position: relative;
 }
 
 #portfolio .new{
     background-color: yellow;
+    position: relative;
 }
+
+
+#work #carousel-example-generic{
+    margin:0 0 5em 0;
+}
+
+
+
+#work #carouselcontainer{
+    padding: 0;
+}
+
+#carouselcontainer{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#portfolio #doublegallery img:hover {
+    opacity: 0.3;
+    -webkit-filter: blur(3px);
+    /* Prefixed CSS3 blur filters */
+    
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+    /* Safari */
+}
+
+#portfolio #doublegallery img {
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    /* Safari */
+}
+
+#portfolio .hide-title > h5 {
+    color: white;
+    opacity: 0;
+    position: absolute;
+    left: 38%;
+    top: 45%;
+}
+
+
+
+    
+    
+
 
 
 
