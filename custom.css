@@ -159,7 +159,7 @@ background-color: #00d900;
 }
 
 
-#work #carousel-example-generic{
+/*#work #carousel-example-generic{
     margin:0 0 5em 0;
 }
 
@@ -172,7 +172,7 @@ background-color: #00d900;
 #carouselcontainer{
     margin-top: 0%;
     margin-bottom: 0%;
-}
+}*/
 
 #portfolio #doublegallery img:hover {
     opacity: 0.3;
