@@ -102,8 +102,17 @@ a img{
     opacity: 0.7;
 }
 
+#sketch{
+background-color: #00d900;
+}
+
 #page-contact {
 background-color: #00d900;
+
+top: 0;
+left: 0;
+z-index: 1000;
+/*background-image: url(images/01.jpg);*/
 }   
 
 #page-contact>.container-fluid{
@@ -119,6 +128,7 @@ background-color: #00d900;
     margin-top: 10%;
     margin-left: 10%;
     }
+
 
 
     
